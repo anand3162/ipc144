@@ -1,0 +1,28 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #5
+Full Name  : Anand Krishna Anil Kumar
+Student ID#: 152227229
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+1. By using variables and macros instead of magic numbers the advantages we get are the following:-
+	i)   It will be more reusable and general when we use variables because if we use a constant we want to change the 
+	     value of the magic numbers for each user.
+	ii)  Increased readability when someone tries to understand the code or when you display the code to someone it would
+	     be easy for them to understand.
+	iii) If we use meaningful names for the variables it will also help us in debugging and finding the error
+	     because of the increased readability.
+
+2. The main reason why it is placed outside the iterations is because of better readability, we can see all the calculations
+   together so that if there is some kind of error in the calculations we can just check everything in one single place.Also 
+   by making it so we are giving each part of the code a certain task.
+   
+   The second reason is that it will slow the validation process and it is better to go on the regular flow of the code.
+   If the calculations are inside the iterations it will unnecessarily drag the validation process. The flow of the code is 
+   also changed if done like this, which will affect the debugging too.
+

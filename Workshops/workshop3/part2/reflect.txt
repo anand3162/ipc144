@@ -1,0 +1,56 @@
+///////////////////////////////////////////////////////////////////////////
+                              Reflection
+                          Workshop - #3 (P2)
+Full Name  : Anand Krishna Anil Kumar
+Student ID#: 152227229
+Email      : akanilkumar@myseneca.c
+Section    : ZCC
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+1.
+  (((SERVINGSA>=1&&SERVINGSA<=4)&&(weightgm1>=0&&weightgm1<=250))||((SERVINGSA>4&&SERVINGSA<10)&&(weightgm1>250&&weightgm1<=500))||((SERVINGSA>=10)&&(weightgm1>=1000)))
+
+  At first i thought this would be easy but while i was coding i realized that it is complex.
+  Here SERVINGSA is the preference of the first customer and weightgm1 is the weight of the first coffee bag in grams.
+
+  A.>Here i used 4 relational operators:-
+				     <(less than)
+				     >(greater than)
+				     <=(less than or equal to)
+				     >=(greater than or equal to)
+  B.>Here i used 2 logical operators:-
+				    ||(or operator)
+				    &&(and operator)
+
+2.
+  This is the method without using de Morgan's law
+PRODUCT3_ID != PRODUCT1_ID && PRODUCT3_ID != PRODUCT2_ID
+and this is the method with de Morgan's law
+!(PRODUCT3_ID==PRODUCT1_ID || PRODUCT3_ID==PRODUCT2_ID)
+I used the first method without using de Morgan's law.
+
+3. The first way is this. Here variables of each coffee are declared together.
+
+    const double GRAMS_IN_LBS = 453.5924;
+    char sold_type1,sold_cream1;int weightgm1;//available coffee1
+    char sold_type2,sold_cream2;int weightgm2;//available coffee2
+    char sold_type3,sold_cream3;int weightgm3;//available coffee3
+    char TYPEA,CREAMA;int SERVINGSA;//coffee entryA
+    char TYPEB,CREAMB;int SERVINGSB;//coffee entryB
+
+This is the second way. Here the variables for coffee1,2 and 3 are declared together like coffee type of the three coffee are declared together.
+
+    const double GRAMS_IN_LBS = 453.5924;
+    char sold_type1,sold_type2,sold_type3;//available coffee types
+    int weightgm1,weightgm2,weightgm3;//available coffee weights
+    char sold_cream1,sold_cream2,sold_cream3//available coffee cream option
+    char TYPEA,CREAMA;int SERVINGSA;//coffee entryA
+    char TYPEB,CREAMB;int SERVINGSB;//coffee entryB
+
+
+			

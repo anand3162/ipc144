@@ -1,0 +1,19 @@
+///////////////////////////////////////////////////////////////////////////
+
+                              Reflection
+                             Workshop - #1
+Full Name  : Anand krishna Anil kumar
+Student ID#: 152227229
+Email      : akanilkumar@myseneca.ca
+Section    : ZCC
+
+Authenticity Declaration:
+
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+1. Yes, i do have a limited experience in programming . I studied the first lessons of c and cpp from my classes in grade 12, while i studied the introduction to java from a small two month course.
+2.The compiling process of c text file into an executable program includes turning the text file to a .c source code file and then converts the source code to a binary language so that the computer can process the input.
+3.I hope that i would achieve better knowledge on different programming languages and learn new things about the computer in general. My goal is to become a software developer and i think I'm on the right track.I expect myself to be more responsible and productive during the program.
+
